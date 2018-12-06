@@ -1,0 +1,29 @@
+<!-- saved from url=(0047)http://python.itcarlow.ie/ed2/ch06/viewlog.html -->
+<html class="gr__python_itcarlow_ie">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head>
+
+<body data-gr-c-s-loaded="true">{% extends 'base.html' %} {% block body %}
+    <h2>{{ the_title }}</h2>
+    <table>
+        <tbody>
+            <tr>
+                {% for row_title in the_row_titles %}
+                <th>{{row_title}}</th>
+                {% endfor %}
+            </tr>
+            {% for log_row in the_data %}
+            <tr>
+                {% for item in log_row %}
+                <td>{{item}}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}
+</body>
+
+</html>
