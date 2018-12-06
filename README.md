@@ -13,11 +13,8 @@ This is my first web app and I made it as part of my learning process.
 I used the Head First Python book to learn basic programming with Python
 
 ## Prerequisites
-What things you need to install the software and how to install them
-
+What things you need to install the software and how to install them:
 * Python
-* Flask
-* Jinja2
 * MySQL
 
 ## Running the app
@@ -29,7 +26,8 @@ TODO
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Built With
-Flask - The web framework
+* Flask
+* Jinja2
 
 ## Versioning
 1.0.0
