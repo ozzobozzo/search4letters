@@ -12,17 +12,13 @@ The webapp logs request data to a MySQL database.
 This is my first web app and I made it as part of my learning process. 
 I used the Head First Python book to learn basic programming with Python
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-See deployment for notes on how to deploy the project on a live system.
-
 ## Prerequisites
 What things you need to install the software and how to install them
 
-Python
-Flask
-Jinja2
-MySQL
+* Python
+* Flask
+* Jinja2
+* MySQL
 
 ## Running the app
 TODO
